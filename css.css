@@ -10,11 +10,12 @@ body {
   }
   
   h1 {
-    color: #FFF;
+    color: #FFF !important;
     font-size: 2em;
     font-family: Georgia;
     padding-top: 100px;
     width: 100%;
+    text-align: center;
   }
   
   h2 {
@@ -32,9 +33,11 @@ body {
   p {
     color: aliceblue;
     line-height: 1.3em;
+    font-size: 18px;
     font-family: Helvetica;
     text-align: left;
     width: 100%;
+    font-weight: bold;
   }
   
   .byline {
@@ -52,8 +55,11 @@ body {
     font-size: 14px;
     font-style: italic;
     line-height: 14px;
+    background-color: #FFF;
+    color: black;
+    opacity: 0.75;
     margin-left: 20px;
-    padding: 10px;
+    padding: 10px;    
     position: relative;
     top: 80%;
     width: 60%;
@@ -64,7 +70,7 @@ body {
   }
   
   .image {
-    background-image: url("https://content.codecademy.com/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/soccer.jpeg");
     background-size: cover;
     background-position: center;
     height: 300px;
