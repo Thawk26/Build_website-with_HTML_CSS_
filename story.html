@@ -32,24 +32,44 @@
             <input id="verb-1" type="text" name="verb-1" required>
             
             <br>
+
             <label for="num-1">Number:</label>
             <input id="num-1" type="number" name="num-1" required>
+            
             <br>
+
             <span>Yes or No:</span>
             
             <input id="yes" type="radio" name="answer" value="yes" required>
             <label for="yes">Yes</label>
             <input id="no" type="radio" name="answer" value="no" required>
             <label for="no">No</label>
+
             <br>
+
             <label for="speed">Relative speed (ends in -er):</label>
             <select id="speed" name="speed" required>
                 <option value="faster">Faster</option>
                 <option value="normal">Normal</option>
                 <option value="slower">Slower</option>
-
             </select>
 
+            <br>
+
+            <label for="quote">Motivational Quote:</label>
+            <input id="quote" type="text" name="quote" list="quote-choices" required>
+                <datalist id="quote-choices">
+                    <option value="winner gets ice cream!"></option>
+                    <option value="blah blah!"></option>
+                    <option value="wtf!"></option>
+                </datalist>
+            <br>
+            <label for="message">Meaningful Message:</label>
+            <textarea id="message" name="message" required minlength="8" maxlength="40"></textarea>
+            <br>
+
+            
+            
             <br>
             <br>
             <input type="submit" value="Form my Story!">
