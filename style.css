@@ -75,3 +75,7 @@
   h4 {
     color:dodgerblue;
   }
+  
+  h5, li {
+    font-family: monospace;
+  }
