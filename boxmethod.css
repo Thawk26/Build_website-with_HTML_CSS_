@@ -45,6 +45,7 @@ body {
     padding: 40px;
     text-align: center;
     width: 400px;
+    margin: 0 auto;
   }
   
   h1 {
@@ -61,6 +62,7 @@ body {
     text-align: center;
     border: dotted red 1px;
     padding: 20px 30px;
+    margin: 30px 20px;
 
   }
   
@@ -77,10 +79,15 @@ body {
     line-height: 48px;
     padding: 10px 20px;
     margin-top: 60px;
+    min-width: 200px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 300px;
   }
   
   .pull-quote {
     width: 350px;
+    margin: 0 auto;
   }
   
   .byline {
