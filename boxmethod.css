@@ -35,6 +35,8 @@ body {
     margin: 0 auto;
     width: 400px;
     border: solid white 3px;
+    border-radius: 15px;
+    
   }
   
   #main {
@@ -56,6 +58,7 @@ body {
     line-height: 48px;
     text-align: center;
     border: dotted red 1px;
+    
 
   }
   
