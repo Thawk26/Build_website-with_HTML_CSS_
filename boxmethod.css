@@ -1,6 +1,8 @@
 body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
   }
   
   .navigation ul {
@@ -123,4 +125,8 @@ body {
     background: white;
     border: 1px solid red;
     color: red;
+  }
+
+  .donate {
+    visibility: hidden;
   }
