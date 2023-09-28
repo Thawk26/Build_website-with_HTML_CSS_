@@ -6,6 +6,7 @@ body {
   header {
     background-color: #466995;
     border-bottom: 1px solid #466995;
+    position: absolute;
   }
   
   ul {
@@ -83,6 +84,8 @@ body {
   
   .question {
     text-align: center;
+    position: absolute;
+    top: 40px;
   }
   
   .answer {
