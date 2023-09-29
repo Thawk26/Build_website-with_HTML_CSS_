@@ -18,6 +18,8 @@ body {
   }
   
   li {
+    width: 80px;
+    display: inline-block;
     color: #FFF;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -90,15 +92,22 @@ body {
     text-align: center;
     position: sticky;
     top: 40px;
+    clear: left;
     
   }
   
   .answer {
     border: 1px solid #466995;
     margin: 20px;
+    
   }
   
   .answer:hover {
     background: #C0D6DF;
     color: #FFF;
+    display: inline-block;
+  }
+
+  footer {
+    height: 100px;
   }
