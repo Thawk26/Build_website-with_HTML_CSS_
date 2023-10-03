@@ -16,6 +16,8 @@ html {
     font-size: 28px;
     text-align: center;
     font-family: Georgia;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
   
   }
   
@@ -33,6 +35,7 @@ html {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    text-align: justify;
   
   }
   
@@ -75,6 +78,8 @@ html {
     border-bottom: 1px solid #fff;
     color: #ffffff;
     font-weight: lighter;
+    word-spacing: 0.25em;
+    line-height: 1.4;
   
   }
   
