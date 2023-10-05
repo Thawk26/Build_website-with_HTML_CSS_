@@ -123,3 +123,7 @@ nav a {
   .gallery-item .thumbnail {width: 95%;
   }
 }
+
+@media only screen and (min-resolution: 150dpi) {
+  logo {background-image: url("../img/spaceship@2x.png")};/* CSS for high resolution screens */
+}
