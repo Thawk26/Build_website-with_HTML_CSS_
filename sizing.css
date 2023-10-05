@@ -1,5 +1,7 @@
 /* Universal Styles */
-
+html {
+    font-size: 16px;
+  }
 
 
 body {
@@ -33,7 +35,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: white;
-    font-size: 1.5em;
+    font-size: 3.75rem;
   }
   
   /* Blog Post */
@@ -62,12 +64,12 @@ body {
   }
   
   .post h2 {
-    font-size: 1.75em;
+    font-size: 1.875rem;
     
   }
   
   .post h3 {
-    font-size: 1.25em;
+    font-size: 1.125rem;
     color: #999999;
   }
   
@@ -99,7 +101,7 @@ body {
     padding: 4rem 0;
     border-top: 1px solid #999999;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.75em;
+    font-size: 1.125rem;
     color: #999999;
     text-align: center;
   }
