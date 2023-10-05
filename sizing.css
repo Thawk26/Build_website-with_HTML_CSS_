@@ -46,10 +46,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 86%;
   }
   
   #blog .post {
-    
+    width: 52%;
     
   
     display: flex;
@@ -81,18 +82,18 @@ body {
   }
   
   .post .image-container {
-    
+    width: 100%;
   }
   
   /* Blog Images */
   
   .images {
-    
+    width: 50%;
   }
   
   .images .image-container {
     display: inline-block;
-    
+    width: 50%;
   }
   
   /* Footer */
