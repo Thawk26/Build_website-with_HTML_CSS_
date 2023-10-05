@@ -22,7 +22,7 @@ body {
     
     background-image: url('camel-background.png');
     background-position: center;
-    
+    height: 46rem;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -51,8 +51,8 @@ body {
   
   #blog .post {
     width: 52%;
-    
-  
+    margin-top: 12.5%;
+    margin-bottom: 7.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,6 +89,7 @@ body {
   
   .images {
     width: 50%;
+    margin-bottom: 20%;
   }
   
   .images .image-container {
