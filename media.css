@@ -115,11 +115,11 @@ nav a {
 }
 
 @media only screen and (max-width: 480px){
-  .page-title {(width: 270px);
+  .page-title {width: 270px;
   }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px){
-  .gallery-item .thumbnail {(width: 95%;)
+  .gallery-item .thumbnail {width: 95%;
   }
 }
