@@ -131,3 +131,7 @@ nav a {
 @media only screen and (max-resolution: 150dpi) and (max-width: 480px)  {
   .page-description {font-size: 20px};
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px),(orientation: portrait) {
+  
+}
