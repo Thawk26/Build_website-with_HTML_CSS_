@@ -29,6 +29,7 @@ body {
     
     background-image: url('camel-background.png');
     background-position: center;
+    background-size: cover;
     height: 46rem;
     background-repeat: no-repeat;
     display: flex;
