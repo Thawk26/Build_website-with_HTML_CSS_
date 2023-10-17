@@ -52,6 +52,12 @@ body {
   vertical-align: middle;
 }
 
+.button span, 
+.button div, 
+.button i {
+  transition: all 1.2s ease-out 0.2s;
+}
+
 .icon {
   width: 200px;
   background-color: #1A7B72;
@@ -67,12 +73,4 @@ body {
 
 .button:hover .icon .fa {
   font-size: 45px;
-}
-
-.button span, 
-.button div,
-.button i {
-  transition: width 750ms ease-in 200ms,
-  left 500ms ease-out 450ms,
-  font-size 950ms linear;
 }
