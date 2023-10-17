@@ -10,7 +10,7 @@ a {
     font-size: 32px;
     color: mintcream;
     transition-property: background-color;
-    transition-duration: 2s;
+    transition-duration: 750ms;
   }
   
   a:hover {
