@@ -36,6 +36,7 @@ h1 {
   transition-property: max-height;
   transition-duration: 750ms;
   transition-timing-function: linear;
+  transition-delay: 400ms;
 }
 
 .game .gazelle:hover {
